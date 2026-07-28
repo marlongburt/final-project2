@@ -1,0 +1,124 @@
+body {
+  background-color:lightpink;
+  margin: 0;
+  padding: 20px;
+}
+img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  border: 4px solid salmon;
+  border-radius: 10px;
+}
+.container{
+    background-color: lightpink;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 15px;
+    align-items: start;
+}
+.image-gallery {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 12px;
+    justify-items: center;
+    background-color:rgb(252, 219, 224);
+    padding: 15px;
+}
+.gallery-image {
+    width: 100%;
+    max-width: 170px;
+    height: 150px;
+    object-fit: cover;
+}
+.item1 {
+  color:salmon;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  font-family:fantasy;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: rgb(252, 219, 224);
+  padding: 10px;
+}
+.item2 {
+  color:salmon;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  font-family:fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(252, 219, 224);
+  padding: 10px;
+}
+.item3 {
+  color:salmon;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  font-family:fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  background-color:rgb(252, 219, 224);
+  padding: 10px;
+}
+.item4 {
+  color:salmon;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  font-family:fantasy;
+  font-size: 20px;
+  background-color:rgb(252, 219, 224);
+  padding: 10px;
+}
+.item5 {
+  color:salmon;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  font-family:fantasy;
+  font-size: 20px;
+  background-color: rgb(252, 219, 224);
+  padding: 10px;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.item6 {
+  color:salmon;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: start;
+  font-family:serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a {
+  color:salmon;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color:rgb(252, 219, 224);
+}
+.item0 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
