@@ -156,5 +156,6 @@ nav a:hover {
   background-color: #f3f4f6;
 }
 .item7{
-  grid-row-start: 5;
+  grid-row-start: 6;
+  grid-column-start: 1;
 }

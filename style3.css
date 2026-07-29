@@ -155,3 +155,7 @@ nav a:hover {
 .professional-table tr:hover {
   background-color: #f3f4f6;
 }
+.item7{
+  grid-row-start: 6;
+  grid-column-start: 1;
+}
