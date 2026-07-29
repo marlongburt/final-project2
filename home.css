@@ -1,10 +1,10 @@
 body {
-  background-color:darkseagreen;
+  background-color:mediumpurple;
   margin: 0;
   padding: 20px;
 }
 .container{
-    background-color:darkseagreen;
+    background-color:mediumpurple;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 15px;
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-  color: darkgreen;
+  color:indigo;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 14px;
@@ -28,5 +28,15 @@ nav a {
 }
 
 nav a:hover {
-  background-color:rgb(171, 209, 171);
+  background-color:rgb(204, 185, 243);
+}
+h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  font-family:fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  background-color:rgb(204, 185, 243);
+  padding: 10px;
 }
