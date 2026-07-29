@@ -30,7 +30,7 @@ nav a {
 nav a:hover {
   background-color:rgb(204, 185, 243);
 }
-h1 {
+.item1{
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
