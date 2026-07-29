@@ -69,7 +69,7 @@ img {
   color:darkgreen;
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 4;
+  grid-row-start: 5;
   text-align: center;
   font-family:fantasy;
   font-size: 20px;
@@ -85,8 +85,8 @@ img {
   font-size: 20px;
   background-color: rgb(184, 218, 184);
   padding: 10px;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 .item6 {
   color:darkgreen;
