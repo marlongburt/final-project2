@@ -1,10 +1,10 @@
 body {
-  background-color:mediumpurple;
+  background-color: rgb(172, 151, 215);
   margin: 0;
   padding: 20px;
 }
 .container{
-    background-color:mediumpurple;
+    background-color:rgb(172, 151, 215);
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 15px;
