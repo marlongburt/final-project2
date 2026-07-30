@@ -33,6 +33,7 @@ nav a:hover {
 .item0 {
   grid-column-start: 1;
   grid-column-end: 5;
+  justify-content: right;
 }
 .item1 {
   grid-column-start: 1;
