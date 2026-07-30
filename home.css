@@ -51,3 +51,14 @@ nav a:hover {
   background-color:rgb(204, 185, 243);
   padding: 10px;
 }
+.item3 {
+  color:indigo;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: start;
+  font-family:serif;
+  font-size: 20px;
+  font-weight: bold;
+}
