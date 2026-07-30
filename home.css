@@ -59,5 +59,8 @@ nav a:hover {
 .item3 {
   grid-column-start: 3;
   grid-column-end: 5;
+}
+.item3 img{
   width: 200px;
+  height: auto;
 }
