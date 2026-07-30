@@ -53,10 +53,6 @@ nav a:hover {
 }
 .item3 {
   color:indigo;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
   text-align: start;
   font-family:serif;
   font-size: 20px;
